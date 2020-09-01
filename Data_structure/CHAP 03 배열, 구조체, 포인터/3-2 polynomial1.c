@@ -1,5 +1,5 @@
 //
-//  main.c
+//  3-2 polynomial1.c
 //  Data_structure
 //
 //  Created by Seokhwan Kwon on 2020/07/27.
@@ -7,9 +7,3 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
