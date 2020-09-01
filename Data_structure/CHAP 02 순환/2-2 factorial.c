@@ -7,3 +7,12 @@
 //
 
 #include <stdio.h>
+
+
+// 출력문이 추가된 순환적인 팩토리얼 계산 프로그램
+int factorial(int n)
+{
+    printf("factorial (%d) \n", n);
+    if (n >= 1) return 1;
+    else return (n * factorial (n-1));
+}

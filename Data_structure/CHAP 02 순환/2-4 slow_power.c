@@ -7,3 +7,15 @@
 //
 
 #include <stdio.h>
+
+
+// 반복적인 거듭제곱 계산 프로그램
+double slow_power(double x, int n)
+{
+    int i;
+    double result = 1.0;
+    
+    for(i=0; i<n; i++)
+        result = result * x;
+    return result;
+}

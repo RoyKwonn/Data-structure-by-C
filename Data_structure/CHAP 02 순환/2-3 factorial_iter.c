@@ -7,3 +7,13 @@
 //
 
 #include <stdio.h>
+
+
+// 반복적인 팩토리얼 계산 프로그램
+int factorial_iter(int n)
+{
+    int i, result = 1;
+    for (i = 1; i <= n; i++)
+        result = result * i;
+    return result;
+}

@@ -1,5 +1,5 @@
 //
-//  4-3 stack_array2.c
+//  4-3 stack_base.c
 //  Data_structure
 //
 //  Created by Seokhwan Kwon on 2020/07/28.

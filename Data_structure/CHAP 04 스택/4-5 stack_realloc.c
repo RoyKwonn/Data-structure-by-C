@@ -1,5 +1,5 @@
 //
-//  4-5 stack_malloc2.c
+//  4-5 stack_realloc.c
 //  Data_structure
 //
 //  Created by Seokhwan Kwon on 2020/07/28.
@@ -9,6 +9,8 @@
 
 
 // 동적 배열 스택 프로그램2 (realloc의 활용)
+// 최대 저장용량의 한계를 극복하였다.
+
 #include <stdio.h>
 #include <stdlib.h>
 
