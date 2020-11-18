@@ -13,7 +13,7 @@
 #define MAX_ELEMENT 200
 
 typedef struct {
-    int key;
+    int key;        // 우선순위 값?
 } element;
 
 typedef struct {
@@ -103,23 +103,77 @@ void heap_sort(element a[], int n)
 // #define SIZE 8
 
 
+void make_change(element a[], int i, element key)
+{
+    int n = 8, j;
+    HeapType* h;
+    h = (HeapType*)malloc(sizeof(HeapType));
+    h->heap = (element *)malloc(sizeof(element) * n);
+    init(h);
+    
+    /*
+    temp1 = a[i];
+    a[i] = key;
+    for(int j = i; j < n + 1; j += 2)
+    {
+        temp2 = a[j+1];
+        a[j+1] = temp1;
+        temp1 = a[j+2];
+        a[j+2] = temp2;
+    }*/
+    
+    
+    for(j = 0; j < n; j++)
+    {
+        insert_max_heap(h, a[j]);
+    }
+    
+    j = h->heap_size;
+    while ((j != 1) && (key.key > h->heap[j / 2].key))
+    {
+        h->heap[j] = h->heap[j / 2];
+        j /= 2;
+    }
+    h->heap[i] = key; // 새로운 노드를 삽입
+    
+    
+    for(i = (n - 1); i >= 0; i--)
+    {
+        a[i] = delete_max_heap(h);
+    }
+    
+    free(h);
+}
+
 
 int main(void)
 {
-    // element list[SIZE] = { 23, 56, 11, 9, 56, 99, 27, 34 };
+    element list[] = { 23, 56, 11, 9, 56, 99, 27, 34 };
+    element key;
     
     
+    int n = MAX_ELEMENT;
+    n = sizeof(list)/sizeof(element);
+    
+    key.key = 3;
+    /*
     element* list;
     list = (element *)malloc(sizeof(element) * MAX_ELEMENT);
-    for(int i = 0; i < MAX_ELEMENT; i++)
+    */
+    
+    /*
+    for(int i = 0; i < n; i++)
     {
         list[i].key = (rand() % 1000) + 1;
     }
+    */
     
-    heap_sort(list, MAX_ELEMENT);
+    make_change(list, 3, key);
+    
+    // heap_sort(list, n+1);
     
     //heap_sort(list, MAX_ELEMENT);
-    for(int i = 0; i < MAX_ELEMENT; i++)
+    for(int i = 0; i < n; i++)
     {
         printf("%d ", list[i].key);
     }

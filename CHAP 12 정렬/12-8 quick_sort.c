@@ -45,6 +45,9 @@ void quick_sort(int list[], int left, int right)
     if (left < right)
     {
         int q = partition(list, left, right);
+        for (int i = 0; i < n; i++)
+            printf("%d ", list[i]);
+        printf("\n");
         quick_sort(list, left, q - 1);
         quick_sort(list, q + 1, right);
     }
@@ -54,10 +57,18 @@ int main(void)
 {
     int i;
     n = MAX_SIZE;
+    
     srand(time(NULL));
     
     for(i = 0; i < n; i++)          // 난수 생성 및 출력
         list[i] = rand() % 100;
+    
+    
+    /*
+    n = 7;
+    for(i = 0; i < n; i++)
+        list[i] = i;
+    */
     
     quick_sort(list, 0, n - 1);     // 퀵정렬 호출
     for (i = 0; i < n; i++)
