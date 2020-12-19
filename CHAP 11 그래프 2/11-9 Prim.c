@@ -42,15 +42,17 @@ void prim(GraphType* g, int s)
     int i, u, v;
     
     for(u = 0; u < g->n; u++)
-        distance[u] = INF;
-    distance[s] = 0;
+        distance[u] = INF;  // 거리에 대한 값을 모두 무한으로 둔다
+    
+    distance[s] = 0;  // 시작 노드의 거리값을 0으로 설정
+    
     for(i = 0; i < g->n; i++)
     {
         u = get_min_vertex(g->n);
         selected[u] = TRUE;
         if(distance[u] == INF) return;
         printf("정점 %d 추가\n", u);
-        for(v = 0; v < g->n; v++)
+        for(v = 0; v < g->n; v++)       // 경유해서 가는 길 중 더 가까운 길을 찾는다
             if(g->weight[u][v] != INF)
                 if(!selected[v] && g->weight[u][v] < distance[v])
                     distance[v] = g->weight[u][v];
