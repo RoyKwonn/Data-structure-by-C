@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D554FA1124FD2E4200068EB3 /* 7-3 circular-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = D554FA1024FD2E4200068EB3 /* 7-3 circular-linked-list.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D571184724CEF2E600C49CEC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D51141FD2510376500BD3E02 /* 9-3 heaptree_test_program.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-3 heaptree_test_program.c"; sourceTree = "<group>"; };
+		D51141FF25103BE500BD3E02 /* quiz-1-a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "quiz-1-a.c"; sourceTree = "<group>"; };
 		D54771A124CFF51400380921 /* 3-4 matrix1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-4 matrix1.c"; sourceTree = "<group>"; };
 		D54771A324CFF73400380921 /* 3-5 matrix2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-5 matrix2.c"; sourceTree = "<group>"; };
 		D54771A524CFFD8200380921 /* 3-6 swap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-6 swap.c"; sourceTree = "<group>"; };
@@ -59,6 +57,7 @@
 		D571186524CF0B8200C49CEC /* 3-1 structure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-1 structure.c"; sourceTree = "<group>"; };
 		D571186724CF0C2300C49CEC /* 3-2 polynomial1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-2 polynomial1.c"; sourceTree = "<group>"; };
 		D571186C24CF10A700C49CEC /* 3-3 polynomial2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-3 polynomial2.c"; sourceTree = "<group>"; };
+		D5B1C9F6251080F800DB5977 /* 9-4 heap-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-4 heap-sort.c"; sourceTree = "<group>"; };
 		D5BE482524D5E29100C31FB7 /* 5-5 queue_bank-simulation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5-5 queue_bank-simulation.c"; sourceTree = "<group>"; };
 		D5BE482824D5E6BB00C31FB7 /* 6-1 array-lsit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-1 array-lsit.c"; sourceTree = "<group>"; };
 		D5BE482A24D5EC0F00C31FB7 /* 6-7 linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-7 linked-list.c"; sourceTree = "<group>"; };
@@ -75,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D51141FC2510371800BD3E02 /* CHAP 09 우선순위 큐 */ = {
+			isa = PBXGroup;
+			children = (
+				D51141FD2510376500BD3E02 /* 9-3 heaptree_test_program.c */,
+				D51141FF25103BE500BD3E02 /* quiz-1-a.c */,
+				D5B1C9F6251080F800DB5977 /* 9-4 heap-sort.c */,
+			);
+			name = "CHAP 09 우선순위 큐";
+			path = "CHAP 09 우선순위 큐";
+			sourceTree = "<group>";
+		};
 		D54771AD24D0030500380921 /* CHAP 04 스택 */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +143,7 @@
 		D571184B24CEF2E600C49CEC /* Data_structure */ = {
 			isa = PBXGroup;
 			children = (
+				D51141FC2510371800BD3E02 /* CHAP 09 우선순위 큐 */,
 				D554FA0F24FD2DE200068EB3 /* CHAP 07 연결리스트 2 */,
 				D5BE482724D5E68200C31FB7 /* CHAP 06 연결리스트 1 */,
 				D54771C224D04B9500380921 /* CHAP 05 큐 */,
@@ -256,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D554FA1124FD2E4200068EB3 /* 7-3 circular-linked-list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

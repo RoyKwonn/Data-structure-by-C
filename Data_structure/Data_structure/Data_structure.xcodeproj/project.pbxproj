@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5AC1D172590A66700256C23 /* 11-0 Dijkstra-liknedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = D5AC1D162590A66700256C23 /* 11-0 Dijkstra-liknedlist.c */; };
+		D554FA1124FD2E4200068EB3 /* 7-3 circular-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = D554FA1024FD2E4200068EB3 /* 7-3 circular-linked-list.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,31 +23,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D51141FD2510376500BD3E02 /* 9-3 heaptree_test_program.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-3 heaptree_test_program.c"; sourceTree = "<group>"; };
-		D5222FC82588AA6F004B4B2C /* navigator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = navigator.c; sourceTree = "<group>"; };
-		D5222FCC2588AB8A004B4B2C /* heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
-		D5222FCD2588BC4D004B4B2C /* heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = heap.c; sourceTree = "<group>"; };
-		D5244F3525188AD10020FECC /* 7-4 multigame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7-4 multigame.c"; sourceTree = "<group>"; };
-		D5244F3825188E980020FECC /* 7-7 d-linked-list_delete-function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7-7 d-linked-list_delete-function.c"; sourceTree = "<group>"; };
-		D5244F3C251895C60020FECC /* 7-8 mp3-player.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7-8 mp3-player.c"; sourceTree = "<group>"; };
-		D5244F4025189CDC0020FECC /* 7-9 linked-stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7-9 linked-stack.c"; sourceTree = "<group>"; };
-		D533AA7E258778C10030FAE3 /* 10-3-2 dfs_mat-queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-3-2 dfs_mat-queue.c"; sourceTree = "<group>"; };
-		D533AA9725877F7C0030FAE3 /* 10-4-2 dfs_list-queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-4-2 dfs_list-queue.c"; sourceTree = "<group>"; };
-		D5449761253606F600B84BB6 /* 9-5 LPT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-5 LPT.c"; sourceTree = "<group>"; };
-		D544976625360F4D00B84BB6 /* 12-6 merge_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-6 merge_sort.c"; sourceTree = "<group>"; };
-		D544976F253613AF00B84BB6 /* 12-8 quick_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-8 quick_sort.c"; sourceTree = "<group>"; };
-		D5449772253615E400B84BB6 /* 12-9 qsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-9 qsort.c"; sourceTree = "<group>"; };
-		D54497762536184200B84BB6 /* 12-10 radix_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-10 radix_sort.c"; sourceTree = "<group>"; };
-		D544977A25361C6500B84BB6 /* 12-11 dictionary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-11 dictionary.c"; sourceTree = "<group>"; };
-		D544977F25361F6100B84BB6 /* 13-1 seq_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-1 seq_search.c"; sourceTree = "<group>"; };
-		D54497842536202B00B84BB6 /* 13-2 seq_search2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-2 seq_search2.c"; sourceTree = "<group>"; };
-		D5449785253620C900B84BB6 /* 13-4 search_binary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-4 search_binary.c"; sourceTree = "<group>"; };
-		D5449786253621EF00B84BB6 /* 13-5 search_binary2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-5 search_binary2.c"; sourceTree = "<group>"; };
-		D54497872536266500B84BB6 /* 13-6 search_index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-6 search_index.c"; sourceTree = "<group>"; };
-		D54497882536279A00B84BB6 /* 13-7 interpol_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-7 interpol_search.c"; sourceTree = "<group>"; };
-		D54497892536287500B84BB6 /* 13-11 AVL-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "13-11 AVL-tree.c"; sourceTree = "<group>"; };
-		D544978D2536312C00B84BB6 /* report-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "report-3.c"; sourceTree = "<group>"; };
-		D54497912536325E00B84BB6 /* test-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-1.c"; sourceTree = "<group>"; };
 		D54771A124CFF51400380921 /* 3-4 matrix1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-4 matrix1.c"; sourceTree = "<group>"; };
 		D54771A324CFF73400380921 /* 3-5 matrix2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-5 matrix2.c"; sourceTree = "<group>"; };
 		D54771A524CFFD8200380921 /* 3-6 swap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-6 swap.c"; sourceTree = "<group>"; };
@@ -69,15 +44,6 @@
 		D54771CD24D063EE00380921 /* 5-4 circular-deque.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5-4 circular-deque.c"; sourceTree = "<group>"; };
 		D54E3E0424F7FD8B00E2A53F /* 6-9 poly.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-9 poly.c"; sourceTree = "<group>"; };
 		D554FA1024FD2E4200068EB3 /* 7-3 circular-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7-3 circular-linked-list.c"; sourceTree = "<group>"; };
-		D55FA47825612FA80046436D /* report-4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "report-4.c"; sourceTree = "<group>"; };
-		D563C32F256C0B5000DCEF1F /* report-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "report-5.c"; sourceTree = "<group>"; };
-		D563C332256C0ED100DCEF1F /* report-5-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "report-5-1.c"; sourceTree = "<group>"; };
-		D563C339256D42C200DCEF1F /* test-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-5.c"; sourceTree = "<group>"; };
-		D564E8EC2524E25B003C3C17 /* Q2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-1.c"; sourceTree = "<group>"; };
-		D56FBAAE258A223B00E2C242 /* Dijkstra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dijkstra.h; sourceTree = "<group>"; };
-		D56FBAAF258A232900E2C242 /* Dijkstra.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dijkstra.c; sourceTree = "<group>"; };
-		D5707047251CC290004AF4E1 /* 8-1 binary-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-1 binary-tree.c"; sourceTree = "<group>"; };
-		D570704F251CC66A004AF4E1 /* 7-12 linked-queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7-12 linked-queue.c"; sourceTree = "<group>"; };
 		D571184924CEF2E600C49CEC /* Data_structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Data_structure; sourceTree = BUILT_PRODUCTS_DIR; };
 		D571185324CEFD7600C49CEC /* 1-1 cal_scores.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1-1 cal_scores.c"; sourceTree = "<group>"; };
 		D571185524CEFE7D00C49CEC /* 1-2 cal_time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1-2 cal_time.c"; sourceTree = "<group>"; };
@@ -93,45 +59,9 @@
 		D571186524CF0B8200C49CEC /* 3-1 structure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-1 structure.c"; sourceTree = "<group>"; };
 		D571186724CF0C2300C49CEC /* 3-2 polynomial1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-2 polynomial1.c"; sourceTree = "<group>"; };
 		D571186C24CF10A700C49CEC /* 3-3 polynomial2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-3 polynomial2.c"; sourceTree = "<group>"; };
-		D5755CC3255C2E6500C1C145 /* 10-3 dfs_mat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-3 dfs_mat.c"; sourceTree = "<group>"; };
-		D5755CC8255C527C00C1C145 /* 10-4 dfs-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-4 dfs-list.c"; sourceTree = "<group>"; };
-		D5755CCC255C543900C1C145 /* 10-5 bfs_mat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-5 bfs_mat.c"; sourceTree = "<group>"; };
-		D584D7F8251CDD9F0010288E /* 8-2 linked-binary-tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "8-2 linked-binary-tree.c"; sourceTree = "<group>"; };
-		D584D7FB251CDDC40010288E /* 8-3 order.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-3 order.c"; sourceTree = "<group>"; };
-		D584D803251CE2600010288E /* 8-4 recursive-inorder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-4 recursive-inorder.c"; sourceTree = "<group>"; };
-		D584D807251CE61F0010288E /* 8-5 level-order.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-5 level-order.c"; sourceTree = "<group>"; };
-		D584D80B251CFA020010288E /* 8-6 evaluate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-6 evaluate.c"; sourceTree = "<group>"; };
-		D584D80F251CFD940010288E /* 8-7 calc-dir-size.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-7 calc-dir-size.c"; sourceTree = "<group>"; };
-		D584D813251CFFD20010288E /* 8-8 thread-binary-order.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-8 thread-binary-order.c"; sourceTree = "<group>"; };
-		D589B042252A229000169395 /* 12-2 selection-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-2 selection-sort.c"; sourceTree = "<group>"; };
-		D589B047252A24B900169395 /* 12-3 insertion-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-3 insertion-sort.c"; sourceTree = "<group>"; };
-		D589B04B252A25B500169395 /* 12-4 bubble-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-4 bubble-sort.c"; sourceTree = "<group>"; };
-		D589B04F252A267A00169395 /* 12-5 shell-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12-5 shell-sort.c"; sourceTree = "<group>"; };
-		D58F1466257890D500E5737B /* 9-0 min_heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-0 min_heap.c"; sourceTree = "<group>"; };
-		D59A062D258D090D0053B82A /* TCP_Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCP_Server.h; sourceTree = "<group>"; };
-		D59A0632258D09520053B82A /* HandleTCPClient.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HandleTCPClient.c; sourceTree = "<group>"; };
-		D59A0635258D09660053B82A /* DieWithError.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DieWithError.c; sourceTree = "<group>"; };
-		D5A25942255D231300EF3751 /* 10-6 bfs_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-6 bfs_list.c"; sourceTree = "<group>"; };
-		D5A25944255D259C00EF3751 /* 11-7 union-find.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11-7 union-find.c"; sourceTree = "<group>"; };
-		D5A25949255D264500EF3751 /* 11-8 Kruskal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11-8 Kruskal.c"; sourceTree = "<group>"; };
-		D5A2594D255D300100EF3751 /* 11-9 Prim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11-9 Prim.c"; sourceTree = "<group>"; };
-		D5A25950255D336700EF3751 /* 11-10 Dijkstra.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11-10 Dijkstra.c"; sourceTree = "<group>"; };
-		D5A25954255D3DC500EF3751 /* 11-11 Floyd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11-11 Floyd.c"; sourceTree = "<group>"; };
-		D5AC1D162590A66700256C23 /* 11-0 Dijkstra-liknedlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11-0 Dijkstra-liknedlist.c"; sourceTree = "<group>"; };
-		D5B1C9F6251080F800DB5977 /* 9-4 heap-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-4 heap-sort.c"; sourceTree = "<group>"; };
-		D5B2B0BA2540A03D002D869D /* 10-1 adj_mat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-1 adj_mat.c"; sourceTree = "<group>"; };
-		D5B2B0C32540A372002D869D /* 10-2 adj_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10-2 adj_list.c"; sourceTree = "<group>"; };
-		D5B2B0CE2541A248002D869D /* middle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = middle.c; sourceTree = "<group>"; };
-		D5BE0E60251F10A8006035C4 /* 9-6 huffman_code.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9-6 huffman_code.c"; sourceTree = "<group>"; };
 		D5BE482524D5E29100C31FB7 /* 5-5 queue_bank-simulation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5-5 queue_bank-simulation.c"; sourceTree = "<group>"; };
 		D5BE482824D5E6BB00C31FB7 /* 6-1 array-lsit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-1 array-lsit.c"; sourceTree = "<group>"; };
 		D5BE482A24D5EC0F00C31FB7 /* 6-7 linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-7 linked-list.c"; sourceTree = "<group>"; };
-		D5D8692B257B7B8800158066 /* SimpleHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHeap.h; sourceTree = "<group>"; };
-		D5D8692C257B7C8500158066 /* SimpleHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SimpleHeap.c; sourceTree = "<group>"; };
-		D5D8692F257B80F400158066 /* SimpleHeapMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SimpleHeapMain.c; sourceTree = "<group>"; };
-		D5F8F44E25717EBC002B5CCB /* report-6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "report-6.c"; sourceTree = "<group>"; };
-		D5FE2B252520A187002982C3 /* 8-13 binary-search-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-13 binary-search-tree.c"; sourceTree = "<group>"; };
-		D5FE2B292521B58E002982C3 /* 8-14 dictionary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8-14 dictionary.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,52 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D51141FC2510371800BD3E02 /* CHAP 09 우선순위 큐 */ = {
-			isa = PBXGroup;
-			children = (
-				D58F1466257890D500E5737B /* 9-0 min_heap.c */,
-				D51141FD2510376500BD3E02 /* 9-3 heaptree_test_program.c */,
-				D5B1C9F6251080F800DB5977 /* 9-4 heap-sort.c */,
-				D5449761253606F600B84BB6 /* 9-5 LPT.c */,
-				D5BE0E60251F10A8006035C4 /* 9-6 huffman_code.c */,
-				D5D8692B257B7B8800158066 /* SimpleHeap.h */,
-				D5D8692C257B7C8500158066 /* SimpleHeap.c */,
-				D5D8692F257B80F400158066 /* SimpleHeapMain.c */,
-			);
-			name = "CHAP 09 우선순위 큐";
-			path = "CHAP 09 우선순위 큐";
-			sourceTree = "<group>";
-		};
-		D5222FC72588AA38004B4B2C /* Report-7 */ = {
-			isa = PBXGroup;
-			children = (
-				D5222FC82588AA6F004B4B2C /* navigator.c */,
-				D5222FCC2588AB8A004B4B2C /* heap.h */,
-				D5222FCD2588BC4D004B4B2C /* heap.c */,
-				D56FBAAE258A223B00E2C242 /* Dijkstra.h */,
-				D56FBAAF258A232900E2C242 /* Dijkstra.c */,
-				D59A062D258D090D0053B82A /* TCP_Server.h */,
-				D59A0632258D09520053B82A /* HandleTCPClient.c */,
-				D59A0635258D09660053B82A /* DieWithError.c */,
-			);
-			path = "Report-7";
-			sourceTree = "<group>";
-		};
-		D544977E25361F0700B84BB6 /* CHAP 13 탐색 */ = {
-			isa = PBXGroup;
-			children = (
-				D544977F25361F6100B84BB6 /* 13-1 seq_search.c */,
-				D54497842536202B00B84BB6 /* 13-2 seq_search2.c */,
-				D5449785253620C900B84BB6 /* 13-4 search_binary.c */,
-				D5449786253621EF00B84BB6 /* 13-5 search_binary2.c */,
-				D54497872536266500B84BB6 /* 13-6 search_index.c */,
-				D54497882536279A00B84BB6 /* 13-7 interpol_search.c */,
-				D54497892536287500B84BB6 /* 13-11 AVL-tree.c */,
-			);
-			name = "CHAP 13 탐색";
-			path = "CHAP 13 탐색";
-			sourceTree = "<group>";
-		};
 		D54771AD24D0030500380921 /* CHAP 04 스택 */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,32 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				D554FA1024FD2E4200068EB3 /* 7-3 circular-linked-list.c */,
-				D5244F3525188AD10020FECC /* 7-4 multigame.c */,
-				D5244F3825188E980020FECC /* 7-7 d-linked-list_delete-function.c */,
-				D5244F3C251895C60020FECC /* 7-8 mp3-player.c */,
-				D5244F4025189CDC0020FECC /* 7-9 linked-stack.c */,
-				D570704F251CC66A004AF4E1 /* 7-12 linked-queue.c */,
 			);
 			name = "CHAP 07 연결리스트 2";
 			path = "CHAP 07 연결리스트 2";
-			sourceTree = "<group>";
-		};
-		D5707046251CC229004AF4E1 /* CHAP 08 트리 */ = {
-			isa = PBXGroup;
-			children = (
-				D5707047251CC290004AF4E1 /* 8-1 binary-tree.c */,
-				D584D7F8251CDD9F0010288E /* 8-2 linked-binary-tree.c */,
-				D584D7FB251CDDC40010288E /* 8-3 order.c */,
-				D584D803251CE2600010288E /* 8-4 recursive-inorder.c */,
-				D584D807251CE61F0010288E /* 8-5 level-order.c */,
-				D584D80B251CFA020010288E /* 8-6 evaluate.c */,
-				D584D80F251CFD940010288E /* 8-7 calc-dir-size.c */,
-				D584D813251CFFD20010288E /* 8-8 thread-binary-order.c */,
-				D5FE2B252520A187002982C3 /* 8-13 binary-search-tree.c */,
-				D5FE2B292521B58E002982C3 /* 8-14 dictionary.c */,
-			);
-			name = "CHAP 08 트리";
-			path = "CHAP 08 트리";
 			sourceTree = "<group>";
 		};
 		D571184024CEF2E600C49CEC = {
@@ -272,13 +133,6 @@
 		D571184B24CEF2E600C49CEC /* Data_structure */ = {
 			isa = PBXGroup;
 			children = (
-				D5FE2B1B251F9902002982C3 /* Report */,
-				D544977E25361F0700B84BB6 /* CHAP 13 탐색 */,
-				D589B041252A226A00169395 /* CHAP 12 정렬 */,
-				D5A25943255D253A00EF3751 /* CHAP 11 그래프 2 */,
-				D5B2B0B925409FDD002D869D /* CHAP 10 그래프 1 */,
-				D51141FC2510371800BD3E02 /* CHAP 09 우선순위 큐 */,
-				D5707046251CC229004AF4E1 /* CHAP 08 트리 */,
 				D554FA0F24FD2DE200068EB3 /* CHAP 07 연결리스트 2 */,
 				D5BE482724D5E68200C31FB7 /* CHAP 06 연결리스트 1 */,
 				D54771C224D04B9500380921 /* CHAP 05 큐 */,
@@ -334,53 +188,6 @@
 			path = "CHAP 03 배열, 구조체, 포인터";
 			sourceTree = "<group>";
 		};
-		D589B041252A226A00169395 /* CHAP 12 정렬 */ = {
-			isa = PBXGroup;
-			children = (
-				D589B042252A229000169395 /* 12-2 selection-sort.c */,
-				D589B047252A24B900169395 /* 12-3 insertion-sort.c */,
-				D589B04B252A25B500169395 /* 12-4 bubble-sort.c */,
-				D589B04F252A267A00169395 /* 12-5 shell-sort.c */,
-				D544976625360F4D00B84BB6 /* 12-6 merge_sort.c */,
-				D544976F253613AF00B84BB6 /* 12-8 quick_sort.c */,
-				D5449772253615E400B84BB6 /* 12-9 qsort.c */,
-				D54497762536184200B84BB6 /* 12-10 radix_sort.c */,
-				D544977A25361C6500B84BB6 /* 12-11 dictionary.c */,
-			);
-			name = "CHAP 12 정렬";
-			path = "CHAP 12 정렬";
-			sourceTree = "<group>";
-		};
-		D5A25943255D253A00EF3751 /* CHAP 11 그래프 2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5A25944255D259C00EF3751 /* 11-7 union-find.c */,
-				D5A25949255D264500EF3751 /* 11-8 Kruskal.c */,
-				D5A2594D255D300100EF3751 /* 11-9 Prim.c */,
-				D5A25950255D336700EF3751 /* 11-10 Dijkstra.c */,
-				D5A25954255D3DC500EF3751 /* 11-11 Floyd.c */,
-				D5AC1D162590A66700256C23 /* 11-0 Dijkstra-liknedlist.c */,
-			);
-			name = "CHAP 11 그래프 2";
-			path = "CHAP 11 그래프 2";
-			sourceTree = "<group>";
-		};
-		D5B2B0B925409FDD002D869D /* CHAP 10 그래프 1 */ = {
-			isa = PBXGroup;
-			children = (
-				D5B2B0BA2540A03D002D869D /* 10-1 adj_mat.c */,
-				D5B2B0C32540A372002D869D /* 10-2 adj_list.c */,
-				D5755CC3255C2E6500C1C145 /* 10-3 dfs_mat.c */,
-				D533AA7E258778C10030FAE3 /* 10-3-2 dfs_mat-queue.c */,
-				D5755CC8255C527C00C1C145 /* 10-4 dfs-list.c */,
-				D533AA9725877F7C0030FAE3 /* 10-4-2 dfs_list-queue.c */,
-				D5755CCC255C543900C1C145 /* 10-5 bfs_mat.c */,
-				D5A25942255D231300EF3751 /* 10-6 bfs_list.c */,
-			);
-			name = "CHAP 10 그래프 1";
-			path = "CHAP 10 그래프 1";
-			sourceTree = "<group>";
-		};
 		D5BE482724D5E68200C31FB7 /* CHAP 06 연결리스트 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,23 +197,6 @@
 			);
 			name = "CHAP 06 연결리스트 1";
 			path = "CHAP 06 연결리스트 1";
-			sourceTree = "<group>";
-		};
-		D5FE2B1B251F9902002982C3 /* Report */ = {
-			isa = PBXGroup;
-			children = (
-				D5222FC72588AA38004B4B2C /* Report-7 */,
-				D564E8EC2524E25B003C3C17 /* Q2-1.c */,
-				D544978D2536312C00B84BB6 /* report-3.c */,
-				D54497912536325E00B84BB6 /* test-1.c */,
-				D5B2B0CE2541A248002D869D /* middle.c */,
-				D55FA47825612FA80046436D /* report-4.c */,
-				D563C32F256C0B5000DCEF1F /* report-5.c */,
-				D563C332256C0ED100DCEF1F /* report-5-1.c */,
-				D563C339256D42C200DCEF1F /* test-5.c */,
-				D5F8F44E25717EBC002B5CCB /* report-6.c */,
-			);
-			path = Report;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5AC1D172590A66700256C23 /* 11-0 Dijkstra-liknedlist.c in Sources */,
+				D554FA1124FD2E4200068EB3 /* 7-3 circular-linked-list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
